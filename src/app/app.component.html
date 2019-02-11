@@ -1,5 +1,12 @@
-<div style="text-align:center">
-  <h1>
-    Hostel 47's {{ title }}!
-  </h1></div>
-  <app-heroes></app-heroes>
+<h1>
+  Hostel 47's {{ title }}!
+</h1>
+
+
+
+<nav>
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/heroes">Heroes</a>
+</nav>
+<router-outlet></router-outlet>
+<app-messages></app-messages>
